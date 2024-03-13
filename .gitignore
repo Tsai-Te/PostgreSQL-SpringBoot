@@ -9,8 +9,6 @@ HELP.md
 mvnw
 mvnw.cmd
 
-.gitattributes
-
 target/
 
 temp/
