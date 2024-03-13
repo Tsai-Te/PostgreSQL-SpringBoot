@@ -68,6 +68,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>postgresql-springboot-devops-integration</finalName>
 	</build>
 
 </project>
