@@ -16,3 +16,5 @@ target/
 temp/
 
 .DS_Store
+
+application.properties
