@@ -33,8 +33,10 @@ public class ImageDataService {
 
         log.info("Image compressed...");
 
-        if (imageData == null)
+        if (imageData == null) {
+            log.info("Image is NULL...");
             return "Image NOT uploaded successfully: " + image.getOriginalFilename();
+        }
 
         return "Image uploaded successfully: " + image.getOriginalFilename();
     }
