@@ -18,7 +18,6 @@ import java.util.Map;
 @Slf4j
 public class EmployeeController {
 
-
     @GetMapping("/{employeeId}")
     public ResponseEntity<?> findEmployeeByEmployeeId(@PathVariable Long employeeId) {
         log.info("Employee found...");
